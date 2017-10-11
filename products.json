@@ -1,0 +1,452 @@
+{
+	"data": [
+		{
+			"type": "products",
+			"id": "1",
+			"attributes": {
+				"name": "Men Product",
+				"description": "<p>This is Men product</p>",
+				"option_name": "Color and Size",
+				"status": "active",
+				"created_at": "2017-09-26 02:31:24",
+				"updated_at": "2017-09-27 16:55:16"
+			},
+			"relationships": {
+				"browse": {
+					"data": {
+						"type": "browse",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/1/relationships/browse",
+						"related": "http://localhost:8000/api/products/1/browse"
+					}
+				},
+				"category": {
+					"data": {
+						"type": "category",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/1/relationships/category",
+						"related": "http://localhost:8000/api/products/1/category"
+					}
+				}
+			},
+			"links": {
+				"self": "http://localhost:8000/api/products/1"
+			}
+		},
+		{
+			"type": "products",
+			"id": "2",
+			"attributes": {
+				"name": "Women Product",
+				"description": "<p>This is Women Product   </p>",
+				"option_name": "Size",
+				"status": "active",
+				"created_at": "2017-09-26 02:33:08",
+				"updated_at": "2017-09-26 02:33:08"
+			},
+			"relationships": {
+				"browse": {
+					"data": {
+						"type": "browse",
+						"id": "2"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/2/relationships/browse",
+						"related": "http://localhost:8000/api/products/2/browse"
+					}
+				},
+				"category": {
+					"data": {
+						"type": "category",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/2/relationships/category",
+						"related": "http://localhost:8000/api/products/2/category"
+					}
+				}
+			},
+			"links": {
+				"self": "http://localhost:8000/api/products/2"
+			}
+		},
+		{
+			"type": "products",
+			"id": "5",
+			"attributes": {
+				"name": "Perfume",
+				"description": "<p>This is Perfume</p>",
+				"option_name": "Size",
+				"status": "active",
+				"created_at": "2017-09-26 02:37:08",
+				"updated_at": "2017-09-26 02:37:08"
+			},
+			"relationships": {
+				"browse": {
+					"data": {
+						"type": "browse",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/5/relationships/browse",
+						"related": "http://localhost:8000/api/products/5/browse"
+					}
+				},
+				"category": {
+					"data": {
+						"type": "category",
+						"id": "3"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/5/relationships/category",
+						"related": "http://localhost:8000/api/products/5/category"
+					}
+				}
+			},
+			"links": {
+				"self": "http://localhost:8000/api/products/5"
+			}
+		},
+		{
+			"type": "products",
+			"id": "6",
+			"attributes": {
+				"name": "asdfas",
+				"description": "<p>fasdf </p>",
+				"option_name": "asdfa",
+				"status": "active",
+				"created_at": "2017-09-26 02:39:06",
+				"updated_at": "2017-09-26 02:39:06"
+			},
+			"relationships": {
+				"browse": {
+					"data": {
+						"type": "browse",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/6/relationships/browse",
+						"related": "http://localhost:8000/api/products/6/browse"
+					}
+				},
+				"category": {
+					"data": {
+						"type": "category",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/6/relationships/category",
+						"related": "http://localhost:8000/api/products/6/category"
+					}
+				}
+			},
+			"links": {
+				"self": "http://localhost:8000/api/products/6"
+			}
+		},
+		{
+			"type": "products",
+			"id": "7",
+			"attributes": {
+				"name": "hello",
+				"description": "<p>apso<i></i><i></i></p>",
+				"option_name": "Categories",
+				"status": "active",
+				"created_at": "2017-09-26 02:41:47",
+				"updated_at": "2017-10-01 09:09:51"
+			},
+			"relationships": {
+				"browse": {
+					"data": {
+						"type": "browse",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/7/relationships/browse",
+						"related": "http://localhost:8000/api/products/7/browse"
+					}
+				},
+				"category": {
+					"data": {
+						"type": "category",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/7/relationships/category",
+						"related": "http://localhost:8000/api/products/7/category"
+					}
+				}
+			},
+			"links": {
+				"self": "http://localhost:8000/api/products/7"
+			}
+		},
+		{
+			"type": "products",
+			"id": "8",
+			"attributes": {
+				"name": "Merchant Product",
+				"description": null,
+				"option_name": "Color",
+				"status": "active",
+				"created_at": "2017-09-28 07:47:53",
+				"updated_at": "2017-09-28 07:47:53"
+			},
+			"relationships": {
+				"browse": {
+					"data": {
+						"type": "browse",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/8/relationships/browse",
+						"related": "http://localhost:8000/api/products/8/browse"
+					}
+				},
+				"category": {
+					"data": {
+						"type": "category",
+						"id": "3"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/8/relationships/category",
+						"related": "http://localhost:8000/api/products/8/category"
+					}
+				}
+			},
+			"links": {
+				"self": "http://localhost:8000/api/products/8"
+			}
+		},
+		{
+			"type": "products",
+			"id": "9",
+			"attributes": {
+				"name": "User Product",
+				"description": null,
+				"option_name": "Size",
+				"status": "active",
+				"created_at": "2017-09-28 07:49:24",
+				"updated_at": "2017-09-28 07:49:24"
+			},
+			"relationships": {
+				"browse": {
+					"data": {
+						"type": "browse",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/9/relationships/browse",
+						"related": "http://localhost:8000/api/products/9/browse"
+					}
+				},
+				"category": {
+					"data": {
+						"type": "category",
+						"id": "3"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/9/relationships/category",
+						"related": "http://localhost:8000/api/products/9/category"
+					}
+				}
+			},
+			"links": {
+				"self": "http://localhost:8000/api/products/9"
+			}
+		},
+		{
+			"type": "products",
+			"id": "10",
+			"attributes": {
+				"name": "Kyi product",
+				"description": null,
+				"option_name": "Color",
+				"status": "active",
+				"created_at": "2017-09-29 05:19:00",
+				"updated_at": "2017-09-29 05:19:00"
+			},
+			"relationships": {
+				"browse": {
+					"data": {
+						"type": "browse",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/10/relationships/browse",
+						"related": "http://localhost:8000/api/products/10/browse"
+					}
+				},
+				"category": {
+					"data": {
+						"type": "category",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/10/relationships/category",
+						"related": "http://localhost:8000/api/products/10/category"
+					}
+				}
+			},
+			"links": {
+				"self": "http://localhost:8000/api/products/10"
+			}
+		},
+		{
+			"type": "products",
+			"id": "11",
+			"attributes": {
+				"name": "Myat Product",
+				"description": null,
+				"option_name": "Color",
+				"status": "active",
+				"created_at": "2017-09-29 05:20:30",
+				"updated_at": "2017-09-29 05:20:30"
+			},
+			"relationships": {
+				"browse": {
+					"data": {
+						"type": "browse",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/11/relationships/browse",
+						"related": "http://localhost:8000/api/products/11/browse"
+					}
+				},
+				"category": {
+					"data": {
+						"type": "category",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/11/relationships/category",
+						"related": "http://localhost:8000/api/products/11/category"
+					}
+				}
+			},
+			"links": {
+				"self": "http://localhost:8000/api/products/11"
+			}
+		},
+		{
+			"type": "products",
+			"id": "12",
+			"attributes": {
+				"name": "Kyi T-shirt",
+				"description": "<p>Lorem ipsum dolar sit amet</p>",
+				"option_name": "Color and Size",
+				"status": "active",
+				"created_at": "2017-10-01 10:42:12",
+				"updated_at": "2017-10-01 10:42:12"
+			},
+			"relationships": {
+				"browse": {
+					"data": {
+						"type": "browse",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/12/relationships/browse",
+						"related": "http://localhost:8000/api/products/12/browse"
+					}
+				},
+				"category": {
+					"data": {
+						"type": "category",
+						"id": "1"
+					},
+					"links": {
+						"self": "http://localhost:8000/api/products/12/relationships/category",
+						"related": "http://localhost:8000/api/products/12/category"
+					}
+				}
+			},
+			"links": {
+				"self": "http://localhost:8000/api/products/12"
+			}
+		}
+	],
+"links": {
+	"first": "http://localhost:8000/api/products?page=1",
+	"last": "http://localhost:8000/api/products?page=2",
+	"prev": null,
+	"next": "http://localhost:8000/api/products?page=2",
+	"self": "http://localhost:8000/api/products"
+},
+"meta": {
+	"current_page": 1,
+	"from": 1,
+	"last_page": 2,
+	"path": "http://localhost:8000/api/products",
+	"per_page": 10,
+	"to": 10,
+	"total": 12
+},
+"included": [
+	{
+		"type": "browse",
+		"id": "1",
+		"attributes": {
+			"name": "Men"
+		},
+		"links": {
+			"self": "http://localhost:8000/api/browses/1"
+		}
+	},
+	{
+		"type": "browse",
+		"id": "2",
+		"attributes": {
+			"name": "Women"
+		},
+		"links": {
+			"self": "http://localhost:8000/api/browses/2"
+		}
+	},
+	{
+		"type": "browse",
+		"id": "1",
+		"attributes": {
+			"name": "Men"
+		},
+		"links": {
+			"self": "http://localhost:8000/api/browses/1"
+		}
+	},
+	{
+		"type": "category",
+		"id": "1",
+		"attributes": {
+			"name": "Clothing"
+		},
+		"links": {
+			"self": "http://localhost:8000/api/categories/1"
+		}
+	},
+	{
+		"type": "category",
+		"id": "1",
+		"attributes": {
+			"name": "Clothing"
+		},
+		"links": {
+			"self": "http://localhost:8000/api/categories/1"
+		}
+	},
+	{
+		"type": "category",
+		"id": "3",
+		"attributes": {
+			"name": "Accessories"
+		},
+		"links": {
+			"self": "http://localhost:8000/api/categories/3"
+		}
+	}
+]
+}
